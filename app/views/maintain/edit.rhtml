@@ -1,0 +1,9 @@
+<h1>Editing job</h1>
+
+<div id="job_form">
+<%= form_tag :action => 'update', :id => @job %>
+  <%= render :partial => 'form' %>
+  <%= submit_tag 'Save' %>
+  <%= link_to("Cancel", url_for(:action=>"jobs", :controller=>"show")) %>
+</form>
+</div>

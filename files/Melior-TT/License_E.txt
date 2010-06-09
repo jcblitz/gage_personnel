@@ -1,0 +1,52 @@
+
+Font-Software License Agreement
+
+1. Licensed Programs
+
+1.1 You acknowledge that the software recorded on the enclosed media (the "Font-Software") is the intellectual property of Heidelberger Druckmaschinen AG and/or its several licensors. Heidelberger Druckmaschinen AG has granted to Linotype Library GmbH the exclusive right to commercially use, protect and defend these rights. The term Font-Software shall also include any updates, upgrades, additions, modified versions, and work copies of the Font-Software licensed to you by Linotype Library GmbH. The media itself is and shall remain the property of Heidelberger Druckmaschinen AG.
+
+1.2 Subject to the terms and conditions hereof and upon payment of the license fee, Linotype Library GmbH grants to you a non-exclusive, non-transferable right to install the Font-Software - limited to the parts of it that you have been rendered access to at the time of delivery or upon the appropriate payment - in a single location on a hard disk or other storage device of up to five computers. Provided the Font-Software is configured for network use, you may install the Font-Software on a single file server for use on a single local area network for either, or (but not both) of the following purposes:
+-	permanent installation onto a hard disk or other storage device of up to five computers.
+-	use of the Font-Software over such network, provided that the number of different computers on which the Font-Software is used does not exceed five computers.
+You may also install the Font-Software on one home or portable computer. However, the Font-Software may not be used on the secondary computer by another person at the same time the Font-Software on the primary computer is being used. You may not copy the Font-Software onto more storage media than mentioned above, except for archival and/or backup purposes only, in which case you may make one copy and are required to copy all copyright and trademark notices incorporated in the data of the Font-Software and to mark such copy with the same labels, including any copyright and/or trademark notices, as to be found on the original media. 
+The same copy restriction shall apply to any data files delivered by Linotype Library GmbH in conjunction with the Font-Software for giving access to the Font-Software. Using the Font-Software on more than five computers as described above is only allowed if you have purchased the appropriate "multi-user license" (special price/subject to availability).
+
+1.3 You are only allowed to transfer or assign the Font-Software to a third party if such transferee complies with all of the following conditions:
+-	The transferee confirms his consent to all terms and conditions of this Font-Software License Agreement by signing this contract
+-	such signed contract including your and the transferee's full name and address is sent to Linotype Library GmbH or its local distributor, and 
+-	you do not retain any copies of the Font-Software in whole or in part and you refrain from any further use of it.
+
+1.4 Only for the purpose of outputting particular files may you take a copy of the font(s) you have used for such files to a commercial printer or other service bureau, and only if such service bureau has informed you that it has purchased or has been granted a license to use the respective Font-Software.
+
+1.5 Embedding of the Font-Software into electronic documents or internet pages is only permitted in a secured read-only mode. Licensee must ensure that recipients of electronic documents or internet pages cannot extract the font software from such documents or use the embedded font software for editing purposes or for the creation of new documents. 
+
+2. No use for other Purposes; No Reverse Compiling
+
+2.1 Subject to the exceptions set forth in subsections 1.3 and 1.4 above, you may not sell, lend, otherwise transfer or sublicense the Font-Software to any third party. 
+
+2.2 Subject to the exceptions set forth in subsections 2.3 and 2.4 below you are not allowed to 
+-	modify, reverse compile or merge the Font-Software with other software programs,
+-	adapt modules thereof for your own developments, or
+-	put the software solutions embodied in the Font-Software to any commercial use other than operating your own computer or output device.
+
+2.3 Actions as described in paragraph 2.2 are only allowed if they are indispensable to obtain the information necessary to establish inter-operability of the Font-Software with other software programs. 
+This shall only apply if such information is not made public or otherwise easily accessible to you and you could not obtain such information from Linotype Library GmbH or its local distributor. In such case you will inform Linotype Library GmbH in writing about which parts of the Font-Software you will reverse compile. 
+
+2.4 You may modify the Font-Software to satisfy your design requirements. Such modifications are in every respect subject to this Font-Software License Agreement.
+
+3. Warranty and Limited Liability
+
+3.1 Linotype Library GmbH warrants that the Font-Software meets the functionality and performance standards as outlined in the user documentation currently valid at the time of the commencement of this license. This warranty ends 6 months after the day of delivery of the Font-Software to you. Linotype Library GmbH will correct substantial malfunctions occurring during this warranty period provided that such malfunctions are reproducible and you give immediate notice and sufficient description of such malfunctions to Linotype Library GmbH. Such corrections will generally be incorporated into new revisions of the Font-Software or, until the release of such new revisions, into temporary versions, at Linotype Library GmbH's discretion. The correction may also be achieved by delivery of new versions of the Font-Software (i.e. versions with additional functionality and/or enhanced performance) in which case the warranty does not cover such additional functionality and performance. In the event that you should need new or modified hardware for the operation of such new versions, you may only return the Font-Software and your money will be refunded.
+
+3.2 The foregoing states the entire liability and warranty of Linotype Library GmbH or its local distributor, and any claims in excess thereof, e.g. for idle time, shortfall of production, waste of material and any other direct, indirect, incidental or consequential damages are limited to actions of Linotype Library GmbH caused by gross negligence or intent.
+
+4. General
+
+4.1 The license granted hereunder shall automatically terminate, if you fail to comply with the terms and conditions hereof.
+
+4.2 Upon termination of this Font-Software License Agreement, you agree to either return or to destroy and refrain from using the Font-Software, the media, copies and/or any modified or merged portions thereof. 
+
+4.3 You agree to inform your employees or any other person having access to the Font-Software and copies thereof at your premises of the terms and conditions of this Font-Software License Agreement and to ensure that they shall strictly abide by these terms and conditions.
+
+
+EULA 02/2002

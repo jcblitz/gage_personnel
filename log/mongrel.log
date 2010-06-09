@@ -1,0 +1,1664 @@
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:2010
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:2010
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:2010
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:2010
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:2010
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:2010
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:2010
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:2010
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:2010
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:2010
+** Writing PID file to log/mongrel.pid
+Thu May 08 13:52:25 -0700 2008: HTTP parse error, malformed request (10.2.129.26): #<Mongrel::HttpParserError: Invalid HTTP format, parsing fails.>
+Thu May 08 13:52:25 -0700 2008: REQUEST DATA: "GET / HTTP/1.0\r\nHost: 10.2.135.206:2010\r\nUser-Agent: Mozilla\r\nAccept: */*\r\n\"Accept-Encoding: \r\nMax-Forwards: 10\r\nX-Forwarded-For: 85.113.243.108\r\nX-Forwarded-Host: www.gagepersonnel.com\r\nX-Forwarded-Server: gagepersonnel.com\r\n\r\n"
+---
+PARAMS: {"HTTP_USER_AGENT"=>"Mozilla", "HTTP_HOST"=>"10.2.135.206:2010", "REQUEST_PATH"=>"/", "HTTP_VERSION"=>"HTTP/1.0", "REQUEST_URI"=>"/", "HTTP_ACCEPT"=>"*/*", "REQUEST_METHOD"=>"GET"}
+---
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:2010
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:2010
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:2010
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:2010
+** Writing PID file to log/mongrel.pid
+Updated 256 to position 1
+Updated 263 to position 2
+Updated 240 to position 3
+Updated 266 to position 4
+Updated 267 to position 5
+Updated 261 to position 6
+Updated 268 to position 7
+Updated 256 to position 1
+Updated 263 to position 2
+Updated 268 to position 3
+Updated 240 to position 4
+Updated 266 to position 5
+Updated 267 to position 6
+Updated 261 to position 7
+Updated 263 to position 1
+Updated 256 to position 2
+Updated 268 to position 3
+Updated 240 to position 4
+Updated 266 to position 5
+Updated 267 to position 6
+Updated 261 to position 7
+Updated 269 to position 1
+Updated 266 to position 2
+Updated 267 to position 3
+Updated 272 to position 4
+Updated 256 to position 5
+Updated 268 to position 6
+Updated 240 to position 7
+Updated 261 to position 8
+Updated 263 to position 9
+Updated 266 to position 1
+Updated 267 to position 2
+Updated 272 to position 3
+Updated 256 to position 4
+Updated 269 to position 5
+Updated 268 to position 6
+Updated 240 to position 7
+Updated 261 to position 8
+Updated 263 to position 9
+Updated 266 to position 1
+Updated 267 to position 2
+Updated 272 to position 3
+Updated 256 to position 4
+Updated 269 to position 5
+Updated 263 to position 6
+Updated 268 to position 7
+Updated 240 to position 8
+Updated 261 to position 9
+Mon Jan 12 13:15:13 -0800 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Updated 266 to position 1
+Updated 267 to position 2
+Updated 274 to position 3
+Updated 277 to position 4
+Updated 272 to position 5
+Updated 276 to position 6
+Updated 256 to position 7
+Updated 275 to position 8
+Updated 263 to position 9
+Updated 278 to position 10
+Updated 268 to position 11
+Updated 240 to position 12
+Updated 261 to position 13
+Updated 266 to position 1
+Updated 267 to position 2
+Updated 268 to position 3
+Updated 274 to position 4
+Updated 277 to position 5
+Updated 272 to position 6
+Updated 276 to position 7
+Updated 256 to position 8
+Updated 275 to position 9
+Updated 263 to position 10
+Updated 278 to position 11
+Updated 240 to position 12
+Updated 261 to position 13
+Updated 274 to position 1
+Updated 330 to position 2
+Updated 320 to position 3
+Updated 324 to position 4
+Updated 325 to position 5
+Updated 327 to position 6
+Updated 328 to position 7
+Updated 329 to position 8
+Updated 317 to position 9
+Updated 300 to position 10
+Updated 310 to position 11
+Updated 330 to position 1
+Updated 320 to position 2
+Updated 324 to position 3
+Updated 325 to position 4
+Updated 327 to position 5
+Updated 328 to position 6
+Updated 329 to position 7
+Updated 317 to position 8
+Updated 300 to position 9
+Updated 274 to position 10
+Updated 310 to position 11
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:2010
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:2010
+** Writing PID file to log/mongrel.pid
+Updated 333 to position 1
+Updated 348 to position 2
+Updated 339 to position 3
+Updated 347 to position 4
+Updated 344 to position 5
+Updated 343 to position 6
+Updated 328 to position 7
+Updated 317 to position 8
+Updated 274 to position 9
+Updated 310 to position 10
+Updated 348 to position 1
+Updated 333 to position 2
+Updated 339 to position 3
+Updated 347 to position 4
+Updated 344 to position 5
+Updated 343 to position 6
+Updated 328 to position 7
+Updated 317 to position 8
+Updated 274 to position 9
+Updated 310 to position 10
+Updated 322 to position 1
+Updated 349 to position 2
+Updated 331 to position 3
+Updated 292 to position 4
+Updated 301 to position 5
+Updated 345 to position 6
+Updated 270 to position 7
+Updated 307 to position 8
+Updated 349 to position 1
+Updated 322 to position 2
+Updated 331 to position 3
+Updated 292 to position 4
+Updated 301 to position 5
+Updated 345 to position 6
+Updated 270 to position 7
+Updated 307 to position 8
+Updated 349 to position 1
+Updated 331 to position 2
+Updated 322 to position 3
+Updated 345 to position 4
+Updated 292 to position 5
+Updated 301 to position 6
+Updated 270 to position 7
+Updated 307 to position 8
+Updated 349 to position 1
+Updated 331 to position 2
+Updated 345 to position 3
+Updated 322 to position 4
+Updated 292 to position 5
+Updated 301 to position 6
+Updated 270 to position 7
+Updated 307 to position 8
+Tue May 12 14:16:34 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Updated 355 to position 1
+Updated 361 to position 2
+Updated 356 to position 3
+Updated 357 to position 4
+Updated 358 to position 5
+Updated 359 to position 6
+Updated 333 to position 7
+Updated 339 to position 8
+Updated 328 to position 9
+Updated 317 to position 10
+Updated 352 to position 11
+Updated 361 to position 1
+Updated 355 to position 2
+Updated 356 to position 3
+Updated 357 to position 4
+Updated 358 to position 5
+Updated 359 to position 6
+Updated 333 to position 7
+Updated 339 to position 8
+Updated 328 to position 9
+Updated 317 to position 10
+Updated 352 to position 11
+Updated 361 to position 1
+Updated 355 to position 2
+Updated 357 to position 3
+Updated 356 to position 4
+Updated 358 to position 5
+Updated 359 to position 6
+Updated 333 to position 7
+Updated 339 to position 8
+Updated 328 to position 9
+Updated 317 to position 10
+Updated 352 to position 11
+Updated 361 to position 1
+Updated 357 to position 2
+Updated 355 to position 3
+Updated 356 to position 4
+Updated 358 to position 5
+Updated 359 to position 6
+Updated 333 to position 7
+Updated 339 to position 8
+Updated 328 to position 9
+Updated 317 to position 10
+Updated 352 to position 11
+Updated 361 to position 1
+Updated 357 to position 2
+Updated 355 to position 3
+Updated 358 to position 4
+Updated 356 to position 5
+Updated 359 to position 6
+Updated 333 to position 7
+Updated 339 to position 8
+Updated 328 to position 9
+Updated 317 to position 10
+Updated 352 to position 11
+Updated 361 to position 1
+Updated 357 to position 2
+Updated 355 to position 3
+Updated 358 to position 4
+Updated 359 to position 5
+Updated 356 to position 6
+Updated 333 to position 7
+Updated 339 to position 8
+Updated 328 to position 9
+Updated 317 to position 10
+Updated 352 to position 11
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:2010
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:2010
+** Writing PID file to log/mongrel.pid
+Updated 366 to position 1
+Updated 371 to position 2
+Updated 368 to position 3
+Updated 357 to position 4
+Updated 364 to position 5
+Updated 359 to position 6
+Updated 317 to position 7
+Updated 352 to position 8
+Updated 371 to position 1
+Updated 366 to position 2
+Updated 368 to position 3
+Updated 357 to position 4
+Updated 364 to position 5
+Updated 359 to position 6
+Updated 317 to position 7
+Updated 352 to position 8
+Updated 371 to position 1
+Updated 366 to position 2
+Updated 368 to position 3
+Updated 359 to position 4
+Updated 357 to position 5
+Updated 364 to position 6
+Updated 317 to position 7
+Updated 352 to position 8
+Updated 371 to position 1
+Updated 366 to position 2
+Updated 359 to position 3
+Updated 368 to position 4
+Updated 357 to position 5
+Updated 364 to position 6
+Updated 317 to position 7
+Updated 352 to position 8
+Updated 357 to position 1
+Updated 373 to position 2
+Updated 377 to position 3
+Updated 366 to position 4
+Updated 359 to position 5
+Updated 368 to position 6
+Updated 364 to position 7
+Updated 317 to position 8
+Updated 352 to position 9
+Updated 357 to position 1
+Updated 373 to position 2
+Updated 377 to position 3
+Updated 359 to position 4
+Updated 366 to position 5
+Updated 368 to position 6
+Updated 364 to position 7
+Updated 317 to position 8
+Updated 352 to position 9
+Updated 349 to position 1
+Updated 378 to position 2
+Updated 375 to position 3
+Updated 376 to position 4
+Updated 322 to position 5
+Updated 292 to position 6
+Updated 301 to position 7
+Updated 378 to position 1
+Updated 349 to position 2
+Updated 375 to position 3
+Updated 376 to position 4
+Updated 322 to position 5
+Updated 292 to position 6
+Updated 301 to position 7
+Updated 378 to position 1
+Updated 349 to position 2
+Updated 292 to position 3
+Updated 375 to position 4
+Updated 376 to position 5
+Updated 322 to position 6
+Updated 301 to position 7
+Updated 378 to position 1
+Updated 292 to position 2
+Updated 349 to position 3
+Updated 375 to position 4
+Updated 376 to position 5
+Updated 322 to position 6
+Updated 301 to position 7
+Updated 357 to position 1
+Updated 379 to position 2
+Updated 380 to position 3
+Updated 373 to position 4
+Updated 377 to position 5
+Updated 359 to position 6
+Updated 366 to position 7
+Updated 368 to position 8
+Updated 364 to position 9
+Updated 317 to position 10
+Updated 352 to position 11
+Updated 357 to position 1
+Updated 380 to position 2
+Updated 379 to position 3
+Updated 373 to position 4
+Updated 377 to position 5
+Updated 359 to position 6
+Updated 366 to position 7
+Updated 368 to position 8
+Updated 364 to position 9
+Updated 317 to position 10
+Updated 352 to position 11
+Updated 357 to position 1
+Updated 379 to position 2
+Updated 380 to position 3
+Updated 373 to position 4
+Updated 377 to position 5
+Updated 359 to position 6
+Updated 366 to position 7
+Updated 368 to position 8
+Updated 364 to position 9
+Updated 317 to position 10
+Updated 352 to position 11
+Updated 357 to position 1
+Updated 379 to position 2
+Updated 380 to position 3
+Updated 377 to position 4
+Updated 373 to position 5
+Updated 359 to position 6
+Updated 366 to position 7
+Updated 368 to position 8
+Updated 364 to position 9
+Updated 317 to position 10
+Updated 352 to position 11
+Updated 357 to position 1
+Updated 379 to position 2
+Updated 380 to position 3
+Updated 377 to position 4
+Updated 373 to position 5
+Updated 359 to position 6
+Updated 317 to position 7
+Updated 366 to position 8
+Updated 368 to position 9
+Updated 364 to position 10
+Updated 352 to position 11
+Updated 357 to position 1
+Updated 379 to position 2
+Updated 377 to position 3
+Updated 380 to position 4
+Updated 373 to position 5
+Updated 359 to position 6
+Updated 317 to position 7
+Updated 366 to position 8
+Updated 368 to position 9
+Updated 364 to position 10
+Updated 352 to position 11
+Updated 357 to position 1
+Updated 379 to position 2
+Updated 377 to position 3
+Updated 380 to position 4
+Updated 373 to position 5
+Updated 317 to position 6
+Updated 359 to position 7
+Updated 366 to position 8
+Updated 368 to position 9
+Updated 364 to position 10
+Updated 352 to position 11
+Updated 357 to position 1
+Updated 379 to position 2
+Updated 377 to position 3
+Updated 380 to position 4
+Updated 317 to position 5
+Updated 373 to position 6
+Updated 359 to position 7
+Updated 366 to position 8
+Updated 368 to position 9
+Updated 364 to position 10
+Updated 352 to position 11
+Updated 357 to position 1
+Updated 379 to position 2
+Updated 377 to position 3
+Updated 380 to position 4
+Updated 317 to position 5
+Updated 373 to position 6
+Updated 366 to position 7
+Updated 359 to position 8
+Updated 368 to position 9
+Updated 364 to position 10
+Updated 352 to position 11
+Updated 292 to position 1
+Updated 376 to position 2
+Updated 349 to position 3
+Updated 375 to position 4
+Updated 322 to position 5
+Updated 301 to position 6
+Updated 376 to position 1
+Updated 292 to position 2
+Updated 349 to position 3
+Updated 375 to position 4
+Updated 322 to position 5
+Updated 301 to position 6
+Updated 376 to position 1
+Updated 292 to position 2
+Updated 375 to position 3
+Updated 349 to position 4
+Updated 322 to position 5
+Updated 301 to position 6
+Updated 376 to position 1
+Updated 375 to position 2
+Updated 292 to position 3
+Updated 349 to position 4
+Updated 322 to position 5
+Updated 301 to position 6
+Updated 376 to position 1
+Updated 375 to position 2
+Updated 292 to position 3
+Updated 322 to position 4
+Updated 349 to position 5
+Updated 301 to position 6
+Updated 357 to position 1
+Updated 379 to position 2
+Updated 381 to position 3
+Updated 383 to position 4
+Updated 377 to position 5
+Updated 380 to position 6
+Updated 317 to position 7
+Updated 366 to position 8
+Updated 359 to position 9
+Updated 368 to position 10
+Updated 364 to position 11
+Updated 352 to position 12
+Updated 379 to position 1
+Updated 357 to position 2
+Updated 381 to position 3
+Updated 383 to position 4
+Updated 377 to position 5
+Updated 380 to position 6
+Updated 317 to position 7
+Updated 366 to position 8
+Updated 359 to position 9
+Updated 368 to position 10
+Updated 364 to position 11
+Updated 352 to position 12
+Updated 379 to position 1
+Updated 357 to position 2
+Updated 377 to position 3
+Updated 381 to position 4
+Updated 383 to position 5
+Updated 380 to position 6
+Updated 317 to position 7
+Updated 366 to position 8
+Updated 359 to position 9
+Updated 368 to position 10
+Updated 364 to position 11
+Updated 352 to position 12
+Updated 379 to position 1
+Updated 357 to position 2
+Updated 377 to position 3
+Updated 381 to position 4
+Updated 317 to position 5
+Updated 383 to position 6
+Updated 380 to position 7
+Updated 366 to position 8
+Updated 359 to position 9
+Updated 368 to position 10
+Updated 364 to position 11
+Updated 352 to position 12
+Updated 379 to position 1
+Updated 357 to position 2
+Updated 377 to position 3
+Updated 317 to position 4
+Updated 381 to position 5
+Updated 383 to position 6
+Updated 380 to position 7
+Updated 366 to position 8
+Updated 359 to position 9
+Updated 368 to position 10
+Updated 364 to position 11
+Updated 352 to position 12
+Updated 376 to position 1
+Updated 384 to position 2
+Updated 382 to position 3
+Updated 375 to position 4
+Updated 292 to position 5
+Updated 322 to position 6
+Updated 349 to position 7
+Updated 301 to position 8
+Updated 384 to position 1
+Updated 376 to position 2
+Updated 382 to position 3
+Updated 375 to position 4
+Updated 292 to position 5
+Updated 322 to position 6
+Updated 349 to position 7
+Updated 301 to position 8
+Updated 384 to position 1
+Updated 382 to position 2
+Updated 376 to position 3
+Updated 375 to position 4
+Updated 292 to position 5
+Updated 322 to position 6
+Updated 349 to position 7
+Updated 301 to position 8
+Updated 379 to position 1
+Updated 395 to position 2
+Updated 392 to position 3
+Updated 394 to position 4
+Updated 357 to position 5
+Updated 387 to position 6
+Updated 393 to position 7
+Updated 377 to position 8
+Updated 389 to position 9
+Updated 381 to position 10
+Updated 380 to position 11
+Updated 366 to position 12
+Updated 359 to position 13
+Updated 368 to position 14
+Updated 352 to position 15
+Updated 395 to position 1
+Updated 379 to position 2
+Updated 392 to position 3
+Updated 394 to position 4
+Updated 357 to position 5
+Updated 387 to position 6
+Updated 393 to position 7
+Updated 377 to position 8
+Updated 389 to position 9
+Updated 381 to position 10
+Updated 380 to position 11
+Updated 366 to position 12
+Updated 359 to position 13
+Updated 368 to position 14
+Updated 352 to position 15
+Updated 395 to position 1
+Updated 392 to position 2
+Updated 379 to position 3
+Updated 394 to position 4
+Updated 357 to position 5
+Updated 387 to position 6
+Updated 393 to position 7
+Updated 377 to position 8
+Updated 389 to position 9
+Updated 381 to position 10
+Updated 380 to position 11
+Updated 366 to position 12
+Updated 359 to position 13
+Updated 368 to position 14
+Updated 352 to position 15
+Updated 395 to position 1
+Updated 392 to position 2
+Updated 394 to position 3
+Updated 379 to position 4
+Updated 357 to position 5
+Updated 387 to position 6
+Updated 393 to position 7
+Updated 377 to position 8
+Updated 389 to position 9
+Updated 381 to position 10
+Updated 380 to position 11
+Updated 366 to position 12
+Updated 359 to position 13
+Updated 368 to position 14
+Updated 352 to position 15
+Updated 401 to position 1
+Updated 407 to position 2
+Updated 392 to position 3
+Updated 408 to position 4
+Updated 400 to position 5
+Updated 403 to position 6
+Updated 394 to position 7
+Updated 379 to position 8
+Updated 357 to position 9
+Updated 389 to position 10
+Updated 380 to position 11
+Updated 352 to position 12
+Updated 401 to position 1
+Updated 407 to position 2
+Updated 408 to position 3
+Updated 392 to position 4
+Updated 400 to position 5
+Updated 403 to position 6
+Updated 394 to position 7
+Updated 379 to position 8
+Updated 357 to position 9
+Updated 389 to position 10
+Updated 380 to position 11
+Updated 352 to position 12
+Updated 401 to position 1
+Updated 407 to position 2
+Updated 408 to position 3
+Updated 392 to position 4
+Updated 400 to position 5
+Updated 379 to position 6
+Updated 403 to position 7
+Updated 394 to position 8
+Updated 357 to position 9
+Updated 389 to position 10
+Updated 380 to position 11
+Updated 352 to position 12
+Updated 401 to position 1
+Updated 407 to position 2
+Updated 408 to position 3
+Updated 392 to position 4
+Updated 357 to position 5
+Updated 400 to position 6
+Updated 379 to position 7
+Updated 403 to position 8
+Updated 394 to position 9
+Updated 389 to position 10
+Updated 380 to position 11
+Updated 352 to position 12
+Updated 401 to position 1
+Updated 407 to position 2
+Updated 408 to position 3
+Updated 357 to position 4
+Updated 400 to position 5
+Updated 379 to position 6
+Updated 392 to position 7
+Updated 403 to position 8
+Updated 394 to position 9
+Updated 389 to position 10
+Updated 380 to position 11
+Updated 352 to position 12
+Updated 401 to position 1
+Updated 407 to position 2
+Updated 408 to position 3
+Updated 357 to position 4
+Updated 379 to position 5
+Updated 400 to position 6
+Updated 392 to position 7
+Updated 403 to position 8
+Updated 394 to position 9
+Updated 389 to position 10
+Updated 380 to position 11
+Updated 352 to position 12
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:2010
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 0.0.0.0:2010
+** Writing PID file to log/mongrel.pid
+Wed Aug 12 01:58:56 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>Wed Aug 12 01:58:56 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>Wed Aug 12 01:58:56 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+
+
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+
+
+Wed Aug 12 01:58:56 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Wed Aug 12 01:58:56 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Wed Aug 12 01:58:56 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Wed Aug 12 01:58:56 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Wed Aug 12 01:58:56 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Wed Aug 12 01:58:56 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Wed Aug 12 01:58:56 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Wed Aug 12 01:58:57 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Wed Aug 12 01:58:58 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>Wed Aug 12 01:58:58 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+
+Wed Aug 12 01:58:58 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Wed Aug 12 01:58:58 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Wed Aug 12 01:58:58 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Wed Aug 12 01:58:58 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Wed Aug 12 01:58:58 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Wed Aug 12 01:58:59 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Wed Aug 12 01:58:59 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Wed Aug 12 01:58:59 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Wed Aug 12 01:58:59 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Wed Aug 12 01:58:59 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Wed Aug 12 01:58:59 -0700 2009: Error reading HTTP body: #<RuntimeError: Socket read return nil>
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:276:in `read_socket'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:248:in `read_body'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:226:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:616:in `process_client'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:751:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `initialize'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `new'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:735:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:282:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `each'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/configurator.rb:281:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:126:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+/home/29110/data/rubygems/gems/bin/mongrel_rails:16
+Updated 416 to position 1
+Updated 408 to position 2
+Updated 419 to position 3
+Updated 420 to position 4
+Updated 410 to position 5
+Updated 357 to position 6
+Updated 379 to position 7
+Updated 403 to position 8
+Updated 394 to position 9
+Updated 389 to position 10
+Updated 352 to position 11
+Updated 408 to position 1
+Updated 416 to position 2
+Updated 419 to position 3
+Updated 420 to position 4
+Updated 410 to position 5
+Updated 357 to position 6
+Updated 379 to position 7
+Updated 403 to position 8
+Updated 394 to position 9
+Updated 389 to position 10
+Updated 352 to position 11
+Updated 408 to position 1
+Updated 419 to position 2
+Updated 416 to position 3
+Updated 420 to position 4
+Updated 410 to position 5
+Updated 357 to position 6
+Updated 379 to position 7
+Updated 403 to position 8
+Updated 394 to position 9
+Updated 389 to position 10
+Updated 352 to position 11
+Updated 408 to position 1
+Updated 419 to position 2
+Updated 420 to position 3
+Updated 416 to position 4
+Updated 410 to position 5
+Updated 357 to position 6
+Updated 379 to position 7
+Updated 403 to position 8
+Updated 394 to position 9
+Updated 389 to position 10
+Updated 352 to position 11
+Updated 422 to position 1
+Updated 430 to position 2
+Updated 425 to position 3
+Updated 426 to position 4
+Updated 428 to position 5
+Updated 420 to position 6
+Updated 357 to position 7
+Updated 379 to position 8
+Updated 403 to position 9
+Updated 389 to position 10
+Updated 430 to position 1
+Updated 422 to position 2
+Updated 425 to position 3
+Updated 426 to position 4
+Updated 428 to position 5
+Updated 420 to position 6
+Updated 357 to position 7
+Updated 379 to position 8
+Updated 403 to position 9
+Updated 389 to position 10
+Updated 430 to position 1
+Updated 422 to position 2
+Updated 426 to position 3
+Updated 425 to position 4
+Updated 428 to position 5
+Updated 420 to position 6
+Updated 357 to position 7
+Updated 379 to position 8
+Updated 403 to position 9
+Updated 389 to position 10
+Updated 430 to position 1
+Updated 426 to position 2
+Updated 422 to position 3
+Updated 425 to position 4
+Updated 428 to position 5
+Updated 420 to position 6
+Updated 357 to position 7
+Updated 379 to position 8
+Updated 403 to position 9
+Updated 389 to position 10
+Updated 430 to position 1
+Updated 426 to position 2
+Updated 425 to position 3
+Updated 422 to position 4
+Updated 428 to position 5
+Updated 420 to position 6
+Updated 357 to position 7
+Updated 379 to position 8
+Updated 403 to position 9
+Updated 389 to position 10
+Updated 432 to position 1
+Updated 448 to position 2
+Updated 433 to position 3
+Updated 437 to position 4
+Updated 442 to position 5
+Updated 445 to position 6
+Updated 446 to position 7
+Updated 447 to position 8
+Updated 443 to position 9
+Updated 444 to position 10
+Updated 425 to position 11
+Updated 422 to position 12
+Updated 357 to position 13
+Updated 403 to position 14
+Updated 389 to position 15
+Updated 432 to position 1
+Updated 446 to position 2
+Updated 448 to position 3
+Updated 433 to position 4
+Updated 437 to position 5
+Updated 442 to position 6
+Updated 445 to position 7
+Updated 447 to position 8
+Updated 443 to position 9
+Updated 444 to position 10
+Updated 425 to position 11
+Updated 422 to position 12
+Updated 357 to position 13
+Updated 403 to position 14
+Updated 389 to position 15
+Updated 446 to position 1
+Updated 448 to position 2
+Updated 432 to position 3
+Updated 433 to position 4
+Updated 437 to position 5
+Updated 442 to position 6
+Updated 445 to position 7
+Updated 447 to position 8
+Updated 443 to position 9
+Updated 444 to position 10
+Updated 425 to position 11
+Updated 422 to position 12
+Updated 357 to position 13
+Updated 403 to position 14
+Updated 389 to position 15
+Updated 446 to position 1
+Updated 432 to position 2
+Updated 448 to position 3
+Updated 433 to position 4
+Updated 437 to position 5
+Updated 442 to position 6
+Updated 445 to position 7
+Updated 447 to position 8
+Updated 443 to position 9
+Updated 444 to position 10
+Updated 425 to position 11
+Updated 422 to position 12
+Updated 357 to position 13
+Updated 403 to position 14
+Updated 389 to position 15
+Updated 455 to position 1
+Updated 451 to position 2
+Updated 456 to position 3
+Updated 459 to position 4
+Updated 460 to position 5
+Updated 461 to position 6
+Updated 448 to position 7
+Updated 442 to position 8
+Updated 443 to position 9
+Updated 403 to position 10
+Updated 455 to position 1
+Updated 451 to position 2
+Updated 459 to position 3
+Updated 456 to position 4
+Updated 460 to position 5
+Updated 461 to position 6
+Updated 448 to position 7
+Updated 442 to position 8
+Updated 443 to position 9
+Updated 403 to position 10
+Updated 455 to position 1
+Updated 459 to position 2
+Updated 451 to position 3
+Updated 456 to position 4
+Updated 460 to position 5
+Updated 461 to position 6
+Updated 448 to position 7
+Updated 442 to position 8
+Updated 443 to position 9
+Updated 403 to position 10
+Updated 455 to position 1
+Updated 461 to position 2
+Updated 459 to position 3
+Updated 451 to position 4
+Updated 456 to position 5
+Updated 460 to position 6
+Updated 448 to position 7
+Updated 442 to position 8
+Updated 443 to position 9
+Updated 403 to position 10
+Updated 455 to position 1
+Updated 461 to position 2
+Updated 459 to position 3
+Updated 448 to position 4
+Updated 451 to position 5
+Updated 456 to position 6
+Updated 460 to position 7
+Updated 442 to position 8
+Updated 443 to position 9
+Updated 403 to position 10
+Updated 455 to position 1
+Updated 461 to position 2
+Updated 448 to position 3
+Updated 459 to position 4
+Updated 451 to position 5
+Updated 456 to position 6
+Updated 460 to position 7
+Updated 442 to position 8
+Updated 443 to position 9
+Updated 403 to position 10
+Updated 455 to position 1
+Updated 461 to position 2
+Updated 448 to position 3
+Updated 403 to position 4
+Updated 459 to position 5
+Updated 451 to position 6
+Updated 456 to position 7
+Updated 460 to position 8
+Updated 442 to position 9
+Updated 443 to position 10
+Updated 421 to position 1
+Updated 457 to position 2
+Updated 423 to position 3
+Updated 449 to position 4
+Updated 450 to position 5
+Updated 457 to position 1
+Updated 421 to position 2
+Updated 423 to position 3
+Updated 449 to position 4
+Updated 450 to position 5
+Updated 457 to position 1
+Updated 423 to position 2
+Updated 421 to position 3
+Updated 449 to position 4
+Updated 450 to position 5
+Updated 448 to position 1
+Updated 403 to position 2
+Updated 459 to position 3
+Updated 456 to position 4
+Updated 460 to position 5
+Updated 455 to position 6
+Updated 442 to position 7
+Updated 443 to position 8
+Updated 464 to position 1
+Updated 448 to position 2
+Updated 403 to position 3
+Updated 459 to position 4
+Updated 456 to position 5
+Updated 460 to position 6
+Updated 455 to position 7
+Updated 442 to position 8
+Updated 443 to position 9
+Updated 288 to position 1
+Updated 465 to position 2
+Updated 427 to position 3
+Updated 289 to position 4
+Updated 311 to position 5
+Updated 429 to position 6
+Updated 441 to position 7
+Updated 337 to position 8
+Updated 342 to position 9
+Updated 405 to position 10
+Updated 96 to position 11
+Updated 465 to position 1
+Updated 288 to position 2
+Updated 427 to position 3
+Updated 289 to position 4
+Updated 311 to position 5
+Updated 429 to position 6
+Updated 441 to position 7
+Updated 337 to position 8
+Updated 342 to position 9
+Updated 405 to position 10
+Updated 96 to position 11
+Updated 463 to position 1
+Updated 457 to position 2
+Updated 423 to position 3
+Updated 421 to position 4
+Updated 449 to position 5
+Updated 450 to position 6
+Updated 466 to position 1
+Updated 464 to position 2
+Updated 467 to position 3
+Updated 403 to position 4
+Updated 456 to position 5
+Updated 455 to position 6
+Updated 442 to position 7
+Updated 443 to position 8
+Updated 466 to position 1
+Updated 467 to position 2
+Updated 464 to position 3
+Updated 403 to position 4
+Updated 456 to position 5
+Updated 455 to position 6
+Updated 442 to position 7
+Updated 443 to position 8
+Updated 479 to position 1
+Updated 472 to position 2
+Updated 475 to position 3
+Updated 477 to position 4
+Updated 476 to position 5
+Updated 403 to position 6
+Updated 455 to position 7
+Updated 479 to position 1
+Updated 475 to position 2
+Updated 472 to position 3
+Updated 477 to position 4
+Updated 476 to position 5
+Updated 403 to position 6
+Updated 455 to position 7
+Updated 479 to position 1
+Updated 475 to position 2
+Updated 477 to position 3
+Updated 472 to position 4
+Updated 476 to position 5
+Updated 403 to position 6
+Updated 455 to position 7
+** USR2 signal received.
+** Restarting with arguments:  ruby /home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails start -d -e production -p 2010 -c /home/29110/containers/rails/gage_website
+/home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:20:in `require': no such file to load -- cgi_multipart_eof_fix (LoadError)
+	from /home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel.rb:20
+	from /home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:11:in `require'
+	from /home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:11
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:2010
+** Starting Rails with production environment...
+/usr/lib/ruby/1.8/yaml.rb:133:in `load': syntax error on line 27, col 2: `  host: localhost' (ArgumentError)
+	from /usr/lib/ruby/1.8/yaml.rb:133:in `load'
+	from /home/29110/data/rubygems/gems/gems/rails-1.2.5/lib/initializer.rb:551:in `database_configuration'
+	from /home/29110/data/rubygems/gems/gems/rails-1.2.5/lib/initializer.rb:234:in `initialize_database'
+	from /home/29110/data/rubygems/gems/gems/rails-1.2.5/lib/initializer.rb:92:in `process'
+	from /home/29110/data/rubygems/gems/gems/rails-1.2.5/lib/initializer.rb:47:in `send'
+	from /home/29110/data/rubygems/gems/gems/rails-1.2.5/lib/initializer.rb:47:in `run'
+	from /home/29110/containers/rails/gage_website/config/environment.rb:13
+	from /home/29110/data/rubygems/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	 ... 10 levels...
+	from /home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+	from /home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+	from /home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+	from /home/29110/data/rubygems/gems/bin/mongrel_rails:16
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:2010
+** Starting Rails with production environment...
+/usr/lib/ruby/1.8/yaml.rb:133:in `load': syntax error on line 27, col 2: `  host: localhost' (ArgumentError)
+	from /usr/lib/ruby/1.8/yaml.rb:133:in `load'
+	from /home/29110/data/rubygems/gems/gems/rails-1.2.5/lib/initializer.rb:551:in `database_configuration'
+	from /home/29110/data/rubygems/gems/gems/rails-1.2.5/lib/initializer.rb:234:in `initialize_database'
+	from /home/29110/data/rubygems/gems/gems/rails-1.2.5/lib/initializer.rb:92:in `process'
+	from /home/29110/data/rubygems/gems/gems/rails-1.2.5/lib/initializer.rb:47:in `send'
+	from /home/29110/data/rubygems/gems/gems/rails-1.2.5/lib/initializer.rb:47:in `run'
+	from /home/29110/containers/rails/gage_website/config/environment.rb:13
+	from /home/29110/data/rubygems/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	 ... 10 levels...
+	from /home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+	from /home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+	from /home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+	from /home/29110/data/rubygems/gems/bin/mongrel_rails:16
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:2010
+** Starting Rails with production environment...
+/usr/lib/ruby/1.8/yaml.rb:133:in `load': syntax error on line 27, col 2: `  host: localhost' (ArgumentError)
+	from /usr/lib/ruby/1.8/yaml.rb:133:in `load'
+	from /home/29110/data/rubygems/gems/gems/rails-1.2.5/lib/initializer.rb:551:in `database_configuration'
+	from /home/29110/data/rubygems/gems/gems/rails-1.2.5/lib/initializer.rb:234:in `initialize_database'
+	from /home/29110/data/rubygems/gems/gems/rails-1.2.5/lib/initializer.rb:92:in `process'
+	from /home/29110/data/rubygems/gems/gems/rails-1.2.5/lib/initializer.rb:47:in `send'
+	from /home/29110/data/rubygems/gems/gems/rails-1.2.5/lib/initializer.rb:47:in `run'
+	from /home/29110/containers/rails/gage_website/config/environment.rb:13
+	from /home/29110/data/rubygems/local/lib/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+	 ... 10 levels...
+	from /home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/../lib/mongrel/command.rb:211:in `run'
+	from /home/29110/data/rubygems/gems/gems/mongrel-1.0.4-i386-linux/bin/mongrel_rails:279
+	from /home/29110/data/rubygems/gems/bin/mongrel_rails:16:in `load'
+	from /home/29110/data/rubygems/gems/bin/mongrel_rails:16

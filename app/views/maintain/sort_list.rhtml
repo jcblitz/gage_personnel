@@ -1,0 +1,36 @@
+<style>
+#list li {
+    border:1px solid #888888;
+    cursor:move;
+    margin: 5px 0;
+    padding:5px;
+}
+
+#list {
+    
+}
+</style>
+<script>
+function changeCategory(category_id) {
+    document.location.href = "/maintain/sort_list/" + category_id;
+}
+</script>
+<div style="padding: 0 10px;">
+<h2>Showing <%=@jobs.size%> jobs from <%=@category.name%></h2>
+<p>Select a different category from the drop down to load jobs for that category. Sorting automatically saves after every move.</p>
+
+<%=select("category", "id", @categories.collect {|p| [ p.name, p.id ] }, { :include_blank => false }, :onchange=>"changeCategory(this.value)") %>
+
+<ol id="list">
+   <% for job in @jobs %>	
+  <li id="item_<%= job.id %>"><%= job.title %></li>
+  <% end -%>
+</ol>
+
+<p id="list-info"></p>
+<%= sortable_element 'list', 
+      :update => 'list-info',  
+      :complete => visual_effect(:highlight, 'list'), 
+      :url => { :action => "sort_list_update" } %>
+
+</div>

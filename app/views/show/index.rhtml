@@ -1,0 +1,93 @@
+<script type="text/javascript">
+
+	  easy_button_on = new Image(); 
+	  easy_button_on.src = '<%= image_path "find_jobs_on.gif" %>';
+	
+	  easy_button_off = new Image();
+	  easy_button_off.src = '<%= image_path "find_jobs_off.gif" %>';	
+	
+	  
+
+	function easyButton(state) {
+		var button = document.getElementById("easy_button");
+		if (state) {
+			button.src = easy_button_on.src;
+		} else {
+			button.src = easy_button_off.src;
+		}
+	}
+</script>
+
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="main_columns" style="margin-top: 10px;">
+  <tr>
+    <td class="left_col">
+	<div id="our_mission">
+	&quot;The Mission of Gage Personnel Services is to unite two positive forces - our clients and our employees - to provide unparalleled, creative employment alternatives and solutions.&quot;<br />
+--- <%= link_to "Read more", :action => "company_profile" %>...
+
+</div>
+
+<div class="highlight">
+	
+	<p>We've moved our Wyomissing office to an expanded facility to better serve you! The new office is less than one mile away from our old location. 
+</p>
+
+	<p>
+		<div class="address">As of August 28th, 2008 our new office location is: <br />
+	101 N. 7th Avenue
+	West Reading, PA 19611 <br />next to Vanity Fair Designer’s Place
+	
+	<div class="hours">Interviews Monday-Thursday 9-11 and 1-3, Friday by appt. Clerical by appt. only</div>
+	
+	</div>
+</p>
+	<p>The phone number and office hours remain the same. Please feel free to contact us with any questions at 610-376-1771. We thank you for helping us grow over the years!</p>
+</div>
+<div id="solutions">
+<%= render :partial => "solutions" %>
+</div>
+
+</td>
+    <td class="right_col">
+	
+	<div style="width: 383px;"><%= image_tag "table_header_pink.gif"%></div>
+	<div style="width: 381px;" class="gray_box easy">	
+		<div class="box_text">Let the temporary and permanent employment specialists at Gage make it easy to find the right job for you.</div>
+		<%= link_to image_tag('find_jobs_off.gif', {:alt => 'Finding a job is easy!', :class=>"easy_button", :border=>"0", :id => "easy_button", :onmouseover=>"easyButton(true);", :onmouseout=>"easyButton(false);"}), :action => 'jobs' %>
+	</div>
+	
+
+	<%= render :partial => "quotes" %>
+	
+		
+	<div style="width: 383px; margin: 10px 0 0 0;"><%= image_tag "table_header_blue.gif"%></div>
+	<div style="width: 381px;" class="gray_box locations">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" id="phone_numbers">
+          <tr>
+            <td><p class="office">Corporate Office:</p>	
+            <p class="office_location">	101 N. 7th Ave.<br />
+              West Reading, PA 19611<br />
+              <strong>Phone:</strong> 610-376-1771<br />
+              <strong>Fax:</strong> 610-376-1718             </p>
+            <p class="office_location">
+              <%= link_to "Get Directions", :action => "contact" %></p></td>
+            <td><p class="office">Ephrata Office:</p>
+            <p class="office_location">Trout Run Business Center<br />
+              348 North Reading Rd.<br />
+              Ephrata, PA 17522<br />
+              <strong>Phone:</strong> 717-336-5959<br />
+              <strong>Fax:</strong> 717-336-4008             </p>
+            <p class="office_location">
+              <%= link_to "Get Directions", :action => "contact" %>
+              </p></td>
+          </tr>
+        </table>
+	</div>
+	
+	
+	
+	</td>
+  </tr>
+</table>

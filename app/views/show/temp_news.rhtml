@@ -1,0 +1,68 @@
+<script language="javascript">
+//the main function, call to the effect object
+function init(){
+
+
+	var stretchers = document.getElementsByClassName('stretcher'); //div that stretches
+	var toggles = document.getElementsByClassName('display'); //h3s where I click on
+
+	//accordion effect
+	var myAccordion = new fx.Accordion(
+		toggles, stretchers, {opacity: true, duration: 400}
+	);
+
+	//hash function
+	
+	function checkHash(){
+		var found = false;
+		toggles.each(function(h3, i){
+			if (window.location.href.indexOf(h3.title) > 0) {
+				myAccordion.showThisHideOpen(stretchers[i]);
+				found = true;
+			}
+		});
+		return found;
+	}
+	
+	if (!checkHash()) myAccordion.showThisHideOpen(stretchers[0]);
+}
+</script>
+
+<h1>Temp of the month</h1>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td id="temp_of_month">
+	
+<span class="name">Maureen Johnson</span>
+	<span class="company"> - Solid Solutions LLC. - </span>
+<%= image_tag('temp_of_month.jpg', {:alt => 'Temp of the month!', :border=>"0"}) %>
+
+<p class="quote" id="quote6">
+   &ldquo;Quisque nulla augue, bibendum venenatis, ornare at, ullamcorper vitae, arcu. Proin et turpis. Aliquam  ultrices hendrerit nulla. Quisque mi sem, vulputate in, commodo eu, ultrices sit amet, nisi.&rdquo;<br />
+
+   <cite>-Evan Williams, Sr. Marketing Director  </cite>
+ </p>
+
+
+</td>
+    <td>
+    	<h4>&raquo; News for Temps &laquo; </h4>
+		<div id="content" style="margin: 3px 0 0 0;">
+
+			<h3 class="display" title="news"><a href="#news">03/06/2007 - New Website Development</a></h3>
+			<div class="stretcher">
+<p>
+				The new site is being demoed today. All feedback is welcome. Seriously.
+</p>
+			</div>
+
+			
+
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+	Element.cleanWhitespace('content');
+	init();
+</script>

@@ -1,0 +1,109 @@
+<script language="javascript">
+//the main function, call to the effect object
+function init(){
+
+
+	var stretchers = document.getElementsByClassName('stretcher'); //div that stretches
+	var toggles = document.getElementsByClassName('display'); //h3s where I click on
+
+	//accordion effect
+	var myAccordion = new fx.Accordion(
+		toggles, stretchers, {opacity: true, duration: 400}
+	);
+
+	//hash function
+	
+	function checkHash(){
+		var found = false;
+		toggles.each(function(h3, i){
+			if (window.location.href.indexOf(h3.title) > 0) {
+				myAccordion.showThisHideOpen(stretchers[i]);
+				found = true;
+			}
+		});
+		return found;
+	}
+	
+	if (!checkHash()) myAccordion.showThisHideOpen(stretchers[0]);
+}
+</script>
+<h1>Company Profile</h1>
+
+
+
+<table>
+	<tr>
+		<td>
+			<h4>&raquo; Company History &laquo;</h4>
+			<p>
+
+			<%= image_tag "gwen-and-bill2.jpg", :style=>"float: right; margin: 0px 5px 5px 7px; border: 2px solid silver;"%>
+
+
+				Gage Personnel Services is an independent, locally-owned and operated temporary and permanent placement firm proudly serving southeastern Pennsylvania.  Established in 1985 by Donna and Gwen Gage, Bill Gage joined the executive team in 1990.  
+
+<p>Since our inception, Gage Personnel has experienced tremendous growth and has earned a reputation for serving clients in an efficient, expedient and highly professional manner.  Gage Personnel has tailored its operations to offer unparalleled employment solutions beneficial to both client and employee. </p> 
+
+ <p>With corporate offices in Wyomissing, Berks County, our local presence ensures personalized service in accommodating our client's ever-changing staffing requirements.  Additionally, offices in Ephrata, Lancaster County, serve to maximize employment solutions locally. </p>  
+	 
+ <p>With our responsive management, combined temporary staffing experience, recruiting practices and premier support services, Gage Personnel is the temporary and permanent employment placement firm of choice.    </p>
+
+			<h4>&raquo; Our Mission &laquo; </h4>
+
+			<p style="font-weight: bold;">
+				"The Mission of Gage Personnel Services is to unite two positive forces - our clients and our employees - to provide unparalleled, creative employment alternatives and solutions."
+</p><p>
+The constant goal of Gage Personnel is to generate mutually beneficial client - employee relationships.  To this end, Gage Personnel's policies are based on accountability, economy, confidentiality, professionalism and respect for everyone it serves.  To best serve our clients, we at Gage Personnel are committed to staying abreast of continuous policy change and practices within the staffing industry.   
+
+			</p>
+
+			<h4>&raquo; Industry Leadership &laquo;</h4>
+
+            <p>
+               Gage Personnel is proud to have an active leadership role in the staffing industry, both on a national and local level.   Both TempNet and TIPPS (The Independent Professional Staffing Society), national organizations whose members are a very select group of staffing firms throughout the country, awarded memberships to Gage Personnel due to its professional excellence and integrity.   
+ </p><p>
+As a former president of PSA (Pennsylvania Staffing Association), Bill Gage continues to support positive state legislation affecting the temporary employment industry.  Bill and Gwen Gage remain in constant touch with current human resource and staffing issues through their affiliation with ASA (American Staffing Association), SHRM (Society for Human Resource Management) and the Greater Reading Chamber of Commerce & Industry.
+
+			</p>
+			
+			<h4>&raquo; Community Leadership &laquo;</h4>
+			<p>
+			Gage Personnel is honored to be the recipient of several community-based awards.  For the past seven years, Gage Personnel has been voted Berks County's People's Choice Award for favorite employment placement service.  In 2006, Gage Personnel was voted "Top 10 Fastest Growing Company in Berks County" by the Greater Reading Chamber of Commerce & Industry.  That same year, Gage Personnel was also voted "Top 10 Movers & Shakers in the Berks County Community" by Berks County Living magazine.    For the community's enjoyment, Gage Personnel sponsors many sports teams, including the Reading Phillies.  Bill Gage is actively involved as a board member for the Berks Economic Partnership (BEP), an agency responsible for promoting and coordinating economic and business development in the Greater Reading area.  In addition, Bill is longtime member of the Wyomissing - West Reading Rotary Club.  
+			</p>
+			
+			
+			<h4>&raquo; Gwen & Bill Gage &laquo;</h4>
+			
+			<p>
+               As lifelong residents of Berks County, Bill and Gwen Gage are profoundly dedicated to contributing to the quality of life for all residents.   Almost twenty years ago, Bill and Gwen conceived and implemented the local March of Dimes "Blue Jeans for Babies" annual fundraiser.  Now a national event, this fundraiser is responsible for raising millions of dollars for the families it serves.  Gwen is an active participant in the local mentoring organization for professional women called The Graces, sharing her experiences as a successful business owner and community leader.  Finally, Bill and Gwen both enjoy serving as board members for local charitable organizations.  In conclusion, Bill and Gwen are proud of the community where they live and have founded their business.  It is the reason they work so tirelessly to maintain its high quality of life.  
+   			</p>
+   			
+   			
+		</td>
+		
+		<td style="width: 396px; vertical-align: top;">
+			<h4>&raquo; News &laquo;</h4>
+					<div id="content" style="margin: 3px 0 0 0;">
+
+						<h3 class="display" title="news"><a href="#news">03/07/2007 - New Website Development</a></h3>
+						<div class="stretcher">
+<p>
+							Gage Personnel has been redesigned for a better user experience.
+</p>
+						</div>
+
+					</div>
+
+				</div>
+			
+			<div style="text-align: center;">
+			<%= image_tag "gage_classiFad.jpg", :style=>"margin: 10px 0 10px 5px; border: 1px solid #333;}" %>
+			</div>
+		</td>
+	</tr>
+</table>
+
+	<script type="text/javascript">
+		Element.cleanWhitespace('content');
+		init();
+	</script>

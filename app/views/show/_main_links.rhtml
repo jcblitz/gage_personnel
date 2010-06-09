@@ -1,0 +1,40 @@
+<script type="text/javascript">
+
+Event.observe(window, 'load', function() {
+  headerInit();
+});
+
+function headerInit() {
+    if ($('<%=params[:action]%>_link') != null) { 
+        Element.addClassName('<%=params[:action]%>_link', 'active');
+        $('<%=params[:action]%>_bullet').src="/images/header_bullet_on.gif";
+        $('<%=params[:action]%>_link').removeAttribute("onmouseout");
+        $('<%=params[:action]%>_link').removeAttribute("onmouseover");
+    }
+}
+
+ 
+</script>
+
+<%= image_tag "header_bullet.gif", :id=>"company_profile_bullet"%> <span><%=link_to "Company Profile", @controller.url_for(:controller => 'show', :action => 'company_profile'), { :onmouseover=>"mouseoverHeader('company_profile_bullet', true);",
+:onmouseout=>"mouseoverHeader('company_profile_bullet', false);", :id => "company_profile_link" }%> </span>
+
+
+
+<%= image_tag "header_bullet.gif", :id=>"staffing_solutions_bullet"%> <span><%=link_to "Staffing Solutions", @controller.url_for(:controller => 'show', :action => 'staffing_solutions'), { :onmouseover=>"mouseoverHeader('staffing_solutions_bullet', true);",
+:onmouseout=>"mouseoverHeader('staffing_solutions_bullet', false);", :id => "staffing_solutions_link" }%></span>
+
+
+<%= image_tag "header_bullet.gif", :id=>"jobs_bullet"%> <span><%=link_to "Employment Opportunities", @controller.url_for(:controller => 'show', :action => 'jobs'), {
+:onmouseover=>"mouseoverHeader('jobs_bullet', true);", :onmouseout=>"mouseoverHeader('jobs_bullet', false);", :id => "jobs_link" }%></span> 
+
+
+
+<%= image_tag "header_bullet.gif", :id=>"services_bullet"%> <span><%=link_to "Services", @controller.url_for(:controller => 'show', :action => 'services'), { :onmouseover=>"mouseoverHeader('services_bullet', true);",
+:onmouseout=>"mouseoverHeader('services_bullet', false);", :id=>"services_link" }%> </span> 
+
+
+<%= image_tag "header_bullet.gif",
+:id=>"contact_bullet"%> <span><%=link_to "Contact Us",@controller.url_for(:controller => 'show', :action => 'contact'), {
+:onmouseover=>"mouseoverHeader('contact_bullet', true);", :onmouseout=>"mouseoverHeader('contact_bullet',
+false);", :id=>"contact_link" }%> </span>

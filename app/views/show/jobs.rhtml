@@ -1,0 +1,146 @@
+<div id="content_wrapper">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td style="width: 200px; padding: 0 10px 0 0;">
+	  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="key">
+        <tr>
+          <th>Quick Links <br /><br /></th>
+        </tr>
+        <tr>
+          <td class="key"><a href="#<%= @administrative.name %>" class="quick_links"><%= @administrative.name %></a></td>
+        </tr>
+        <tr>
+          <td class="key"><a href="#<%= @industrial.name %>" class="quick_links"><%= @industrial.name %> Service </a></td>
+        </tr>
+        <tr>
+          <td class="key"><a href="#<%= @professional.name %>" class="quick_links"><%= @professional.name %> Service </a></td>
+        </tr>
+      </table>
+	  <br />
+	 </td>
+      <td>
+      
+      
+      <% if flash[:notice] %><div class="notice"><%= flash[:notice] %></div><% end %>
+      
+      <% if logged_in? %>
+      <div class="admin-actions">
+        <%= link_to "Add New", { :action => "new", :controller => "maintain"},  :class => "button" %>
+        <%= link_to "Update Order", { :action => "sort_list", :controller => "maintain"},  :class => "button" %>
+      </div>
+      <% end %>
+      <a name="<%= @administrative.name %>"></a>
+	  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="key">
+        <tr>
+          <th scope="col" style="width: 100px;">&nbsp;</th>
+          <th scope="col"><%= @administrative.name %> Positions  <br /><br /></th>
+          <th scope="col" style="width: 80px;">&nbsp;</th>
+        </tr>
+        
+        <% @administrative.jobs.each do |job| %>
+        <% row_color = cycle('row_off','row_on')
+            if job.is_hot_job?
+            row_color = 'row_hot'
+            end
+        
+         %>
+            <tr>
+              <td class="<%= row_color %>"></td>
+              <td class="<%= row_color %>">          
+                <span class="bold"><%= job.title %></span>
+                <p><%= job.description %></p>
+              </td>
+              <td class="<%= row_color %>">
+              <% if logged_in? %>
+                <%= link_to(image_tag("application_form_delete.png", {:border=>"0", :alt=>"Delete", :title=>"Delete"}), {:action => "delete", :controller => "maintain", :id => job.id}, :confirm => "Are you sure you want to delete '#{job.title}'") %>
+                <%= link_to(image_tag("application_form_edit.png", {:border=>"0", :alt=>"Edit", :title=>"Edit"}), :action => "edit", :controller => "maintain", :id => job.id) %>
+              <%end%></td>
+            </tr>        
+        <%end%>
+        <% if @administrative.jobs.size == 0 %>        
+        <tr>
+            <td class="row_off" colspan="5" style="height: 30px; font-size: 1em; padding: 10px; text-align: center;"> Sorry, there are no listings for this section. </td>
+          </tr>
+        <% end %>
+      </table>
+      
+        <p>&nbsp;</p>
+		<a name="<%= @industrial.name %>"></a>
+        
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="key">
+          <tr>
+            <th scope="col" style="width: 100px;">&nbsp;</th>
+            <th scope="col"><%= @industrial.name %> Positions  <br /><br /></th>
+            <th scope="col" style="width: 80px;">&nbsp;</th>
+          </tr>
+          <% @industrial.jobs.each do |job| %>
+        <% row_color = cycle('row_off','row_on')
+            if job.is_hot_job?
+            row_color = 'row_hot'
+            end
+        
+         %>
+            <tr>
+              <td class="<%= row_color %>"></td>
+              <td class="<%= row_color %>">          
+                <span class="bold"><%= job.title %></span>
+                <p><%= job.description %></p>
+              </td>
+              <td class="<%= row_color %>">
+              <% if logged_in? %>
+             <%= link_to(image_tag("application_form_delete.png", {:border=>"0", :alt=>"Delete", :title=>"Delete"}), {:action => "delete", :controller => "maintain", :id => job.id}, :confirm => "Are you sure you want to delete '#{job.title}'") %>
+                <%= link_to(image_tag("application_form_edit.png", {:border=>"0", :alt=>"Edit", :title=>"Edit"}), :action => "edit", :controller => "maintain", :id => job.id) %> <%end%></td>
+            </tr>        
+        <%end%>   
+        <% if @industrial.jobs.size == 0 %>        
+        <tr>
+            <td class="row_off" colspan="5" style="height: 30px; font-size: 1em; padding: 10px; text-align: center;"> Sorry, there are no listings for this section. </td>
+          </tr>
+        <% end %>  
+
+        </table>  
+        
+        
+		<p>&nbsp;</p>  
+		
+		
+		<a name="<%= @professional.name %>"></a>
+        
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="key">
+          <tr>
+            <th scope="col" style="width: 100px;">&nbsp;</th>
+            <th scope="col"><%= @professional.name %> Positions  <br /><br /></th>
+            <th scope="col" style="width: 80px;">&nbsp;</th>
+          </tr>
+          <% @professional.jobs.each do |job| %>
+        <% row_color = cycle('row_off','row_on')
+            if job.is_hot_job?
+            row_color = 'row_hot'
+            end
+        
+         %>
+            <tr>
+              <td class="<%= row_color %>"></td>
+              <td class="<%= row_color %>">          
+                <span class="bold"><%= job.title %></span>
+                <p><%= job.description %></p>
+              </td>
+              <td class="<%= row_color %>"><% if logged_in? %>
+             <%= link_to(image_tag("application_form_delete.png", {:border=>"0", :alt=>"Delete", :title=>"Delete"}), {:action => "delete", :controller => "maintain", :id => job.id}, :confirm => "Are you sure you want to delete '#{job.title}'") %>
+                <%= link_to(image_tag("application_form_edit.png", {:border=>"0", :alt=>"Edit", :title=>"Edit"}), :action => "edit", :controller => "maintain", :id => job.id) %>  <%end%></td>
+            </tr>        
+        <%end%>   
+        <% if @professional.jobs.size == 0 %>        
+        <tr>
+            <td class="row_off" colspan="5" style="height: 30px; font-size: 1em; padding: 10px; text-align: center;"> Sorry, there are no listings for this section. </td>
+          </tr>
+        <% end %>  
+
+        </table>  
+        
+		  </td>
+    </tr>
+  </table>
+  
+  
+</div>

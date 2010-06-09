@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <title>Ruby on Rails</title>
+  <link rel="Stylesheet" href="screen.css" type="text/css" media="screen" />
+</head>
+
+<body class="overview">
+
+
+<link href="/stylesheets/style.css?1151463405" media="screen" rel="Stylesheet" type="text/css" />
+<script src="/javascripts/prototype.js?1149360079" type="text/javascript"></script>
+<script src="/javascripts/effects.js?1149360079" type="text/javascript"></script>
+<script src="/javascripts/dragdrop.js?1149360079" type="text/javascript"></script>
+<script src="/javascripts/controls.js?1149360079" type="text/javascript"></script>
+<script src="/javascripts/application.js?1151024980" type="text/javascript"></script>
+
+<script type="text/javascript">
+  var QuoteShow = Class.create();
+  QuoteShow.prototype = {
+    initialize: function(element, options) {
+      this.element = $(element);
+      this.options = Object.extend({className: 'quote', duration: 15}, options);
+      this.quotes = document.getElementsByClassName(this.options.className, this.element);
+
+      this.prepareQuotes();
+      this.registerCallback();
+    },
+
+    prepareQuotes: function() {
+      this.currentQuote = this.quotes.first();
+      this.element.style.position = 'relative';
+      this.element.style.height = this.quotes.max(function(quote) {
+        var visible = Element.visible(quote), height;
+        Element.setStyle(quote, {position: 'absolute', width: '100%', left: '0px'});
+        if (!visible) Element.show(quote);
+        height = Element.getHeight(quote);
+        if (!visible) Element.hide(quote);
+        return height;
+      }).toString() + 'px';
+    },
+
+    nextQuote: function() {
+      return this.quotes[(this.quotes.indexOf(this.currentQuote) + 1) % this.quotes.length];
+    },
+
+    registerCallback: function() {
+      window.setTimeout(this.tick.bind(this), this.options.duration * 1000);
+    },
+
+    tick: function() {
+      var currentQuote = this.currentQuote, nextQuote = this.nextQuote();
+
+      new Effect.Parallel([
+        new Effect.Fade(currentQuote, {sync: true}),
+        new Effect.Appear(nextQuote, {sync: true})
+      ], {
+        duration: 2,
+        afterFinish: (function(effect) {
+          this.currentQuote = nextQuote;
+          this.registerCallback();
+        }).bind(this)
+      })
+    }
+  }
+
+  Event.observe(window, 'load', function() {
+    new QuoteShow('quote-show');
+  })
+</script>
+
+
+<div id="quote-show">
+  <p class="quote" id="quote1">
+    &#8220;Ruby on Rails is a breakthrough in lowering the barriers of entry to programming.<br/>
+    Powerful web applications that formerly might have taken weeks or months<br/>
+    to develop can be produced in a matter of days.&#8221;<br />
+    <cite>-Tim O'Reilly, Founder of O'Reilly Media <br/><a href="/quotes" title="More quotes">Read more quotes</a></cite>
+
+  </p>
+
+  <p class="quote" id="quote2" style="display:none">
+    &#8220;Rails is the most well thought-out web development framework I’ve ever used.<br />
+    And that’s in a decade of doing web applications for a living. I’ve built my<br />
+    own frameworks, helped develop the Servlet API, and have created more than<br />
+    a few web servers from scratch. Nobody has done it like this before.&#8221;<br />
+
+    <cite>-James Duncan Davidson, Creator of Tomcat and Ant  <br/><a href="/quotes" title="More quotes">Read more quotes</a></cite>
+  </p>
+
+  <p class="quote" id="quote3" style="display:none">
+    &#8220;It is impossible not to notice Ruby on Rails.  It has had a huge effect both in<br />
+    and outside the Ruby community... Rails has become a standard to which even<br />
+    well-established tools are comparing themselves to.&#8221;<br />
+
+    <cite>-Martin Fowler, Author of Refactoring, PoEAA, XP Explained  <br/><a href="/quotes" title="More quotes">Read more quotes</a></cite>
+  </p>
+
+  <p class="quote" id="quote4" style="display:none">
+    &#8220;What sets this framework apart from all of the others is the preference for<br />
+    convention over configuration making applications easier<br />
+    to develop and understand.&#8221;<br />
+
+    <cite>-Sam Ruby, ASF board of directors  <br/><a href="/quotes" title="More quotes">Read more quotes</a></cite>
+  </p>
+
+  <p class="quote" id="quote5" style="display:none">
+    &#8220;Before Ruby on Rails, web programming required a lot of verbiage, steps and time.<br />
+    Now, web designers and software engineers can develop a website<br />
+    much faster and more simply, enabling them to be more productive<br />
+
+    and effective in their work.&#8221;<br />
+    <cite>-Bruce Perens, Open Source Luminary  <br/><a href="/quotes" title="More quotes">Read more quotes</a></cite>
+  </p>
+
+  <p class="quote" id="quote6" style="display:none">
+    &#8220;After researching the market, Ruby on Rails stood out as the best choice.<br />
+    We have been very happy with that decision.  We will continue<br />
+
+    building on Rails and consider it a key business advantage.&#8221;<br />
+    <cite>-Evan Williams, Creator of Blogger and ODEO  <br/><a href="/quotes" title="More quotes">Read more quotes</a></cite>
+  </p>
+
+  <p class="quote" id="quote7" style="display:none">
+    &#8220;Ruby on Rails is astounding. Using it is like watching a kung-fu movie,<br />
+    where a dozen bad-ass frameworks prepare to beat up the little newcomer<br />
+
+    only to be handed their asses in a variety of imaginative ways.&#8221;<br />
+    <cite>-Nathan Torkington, O'Reilly Program Chair for OSCON  <br/><a href="/quotes" title="More quotes">Read more quotes</a></cite>
+  </p>
+
+  <p class="quote" id="quote8" style="display:none">
+    &#8220;Rails is the killer app for Ruby.&#8221;<br />
+    <cite>Yukihiro Matsumoto, Creator of Ruby  <br/><a href="/quotes" title="More quotes">Read more quotes</a></cite>
+
+  </p>
+</div>
+
+
+</body>
+</html>

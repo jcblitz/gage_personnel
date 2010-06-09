@@ -1,0 +1,48 @@
+
+Contrat d'utilisation du Logiciel de Polices de Caractères
+
+1. Droit d'utilisation
+
+1.1 Le Logiciel de Polices de Caractères sauvegardé sur le support d'information (le "Logiciel de Polices de Caractères") est la propriété intellectuelle de Heidelberger Druckmaschinen AG et/ou de leurs donneurs de licence. Heidelberger Druckmaschinen AG a accordée à Linotype Library GmbH ("Linotype Library") le droit exclusif d'emploi, de la défense et protection commerciales. La notion de Logiciel de Polices de Caractères inclut toutes les mises à jour, évolutions, extensions, versions modifiées et copies de travail du Logiciel de Polices de Caractères auxquelles il est accordé par la présente un droit d'utilisation. Les supports d'information sont et demeurent à l'avenir aussi la propriété de Heidelberger Druckmaschinen AG.
+
+1.2 Linotype Library vous octroie, avec le paiement complet de la taxe d'utilisation convenue, le droit non exclusif et non transmissible d'installer le Logiciel de Polices de Caractères en un seul lieu sur un disque dur ou un autre support de mémorisation de un à cinq ordinateurs. Au cas où le Logiciel de Polices de Caractères serait utilisé par le biais d'un réseau, vous êtes en droit de l'utiliser sur un seul serveur de fichier aux fins d'utilisation dans un "Local Area Network" pour un seul des objectifs ci-dessous énumérés:
+-	Installation permanente sur un disque dur ou autre support de mémorisation de un à cinq ordinateurs;
+-	Utilisation du Logiciel de Polices de Caractères par le biais de ce réseau à condition que le nombre des différents ordinateurs sur lesquels le Logiciel de Polices de Caractères sera utilisé ne dépasse pas cinq ordinateurs. 
+Vous êtes également en droit d'installer le Logiciel de Polices de Caractères sur un ordinateur à votre domicile ou sur un ordinateur portable. Néanmoins, le Logiciel de Polices de Caractères ne devra pas être utilisé simultanément sur le premier ordinateur et par une autre personne sur un deuxième ordinateur. Vous êtes habilité à générer une copie de sauvegarde du Logiciel de Polices de Caractères qui devra comporter une copie du marquage initial (y compris l'indication du copyright). Les mêmes restrictions de copie s'appliquent aux fichiers que vous livre Linotype Library en liaison avec le Logiciel de Polices de Caractères afin de vous permettre d'y accéder. Une installation simultanée du Logiciel de Polices de Caractères sur plus de cinq ordinateurs n'est admissible que si vous avez acquis une "licence multi-utilisateurs" (contre un supplément de prix et selon la disponibilité).
+
+1.3 Vous n'êtes habilité à transmettre ce droit d'utilisation à des tiers qu'en respectant toutes les conditions ci-après:
+-	Cette tierce personne accepte, en apposant sa signature sur ce contrat, la teneur de ce contrat d'utilisation du Logiciel de Polices de Caractères comme une réglementation qui l'engage et une copie du formulaire de transfert entièrement rempli et signé par vous et par la tierce personne sera envoyée à Linotype Library ou au revendeur et
+-	vous ne conservez aucune copie du Logiciel de Polices de Caractères et vous vous abstenez d'utiliser ultérieurement cette dernière ou une copie ou des parties de cette dernière.
+
+1.4 Vous n'êtes habilité à remettre une copie des polices de caractères que vous avez utilisés pour créer le fichier en question à une imprimerie commerciale ou à toute autre entreprise de prestations de service qu'exclusivement dans le but de sortir des fichiers déterminés et que dans la mesure où cette entreprise de prestations de service vous aura assuré de façon crédible qu'elle a acquis en bonne et due forme un droit d'utilisation du Logiciel de Polices de Caractères en question.
+
+1.5 L'incorporation du Logiciel de Polices de Caractères dans un document électronique ou dans des pages internet n'est autorisée que pour un mode de lecture seule. Le titulaire de la présente licence doit s'assurer que les destinaires de documents électroniques et pages internet ne puissent pas extraire le Logiciel de Polices de Caractères dans but de nouvelle édition ou de création des nouveaux documents.
+
+2. Exclusion de toute autre utilisation
+
+2.1 Il est formellement interdit - sous réserve des dispositions aux alinéas 1.3 et 1.4 - de vendre le Logiciel de Polices de Caractères, de le prêter, de le remettre de toute autre façon à des tiers ou d'accorder des sous-licences de ce logiciel.
+
+2.2 Il n'est pas autorisé - sous réserve des dispositions aux alinéas 2.3 et 2.4,
+-	de modifier le Logiciel de Polices de Caractères, de l'intégrer à d'autres logiciels, de le décompiler,
+-	d'en utiliser des modules à des fins de développement propre ou
+-	d'utiliser les solutions techniques inclues dans le Logiciel de Polices de Caractères à d'autres fins que l'utilisation sur votre propre ordinateur ou unité de sortie.
+
+2.3 Des interventions selon l'alinéa 2.2 ne sont admissibles que dans la mesure où elles sont indispensables pour obtenir les informations nécessaires afin d'obtenir l'interoperabilité du logiciel avec d'autres programmes et où ces informations ne seront pas publiées ni ne seront accessibles de toute autre façon et où vous ne les avez pas reçues de Linotype Library ou de votre revendeur après une demande en conséquence. Dans ce cas, vous communiquerez par écrit à Linotype Library quelles parties du Logiciel de Polices de Caractères vous décompilez.
+
+2.4 Toute modification du Logiciel de Polices de Caractères n'est autorisée que si elle est nécessaire afin de satisfaire à vos propres besoins de création. Les modifications effectuées à cet effet sont soumises à tous points de vue aux dispositions de ce contrat d'utilisation du Logiciel de Polices de Caractères.
+
+3. Garantie et responsabilité
+
+3.1 Linotype Library garantit que le Logiciel de Polices de Caractères satisfait aux standards de fonction et de performance figurant dans la description de produit en vigueur au moment de la conclusion du contrat. Les droits de garantie prennent fin six mois après le jour où vous aura été remis le Logiciel de Polices de Caractères. Au cas où pendant cette période, le Logiciel de Polices de Caractères présenterait des vices qui en altèrent la valeur et la capacité de façon non négligeable, Linotype Library supprimera ces vices dans les plus brefs délais après que ces vices lui aient été communiqués. Il faut, pour une suppression des vices, que les effets de ces vices soient reproduisibles, qu'ils aient été suffisamment décrits par vos soins et que le vice ait été immédiatement communiqué à Linotype Library. La garantie s'effectue par correction qui peut aussi être réalisée, au choix pour Linotype Library, sous forme de livraison gratuite d'une nouvelle version de programme ou sous forme d'une correction temporaire du vice jusqu'à remise d'une telle version. Au cas où de nouvelles versions du Logiciel de Polices de Caractères (avec un volume élargi de fonctions et de prestations auxquels vous n'avez pas droit) seraient mises à votre disposition à des fins de garantie, la garantie ne s'étendra pas à ces fonctions et performances supplémentaires. Au cas où une telle nouvelle version nécessiterait pour son fonctionnement un nouveau matériel ou une modification du matériel du client, vous êtes uniquement en droit de rendre le Logiciel de Polices de Caractères à Linotype Library ou au revendeur contre remboursement du prix payé. Vous savez néanmoins que les logiciels ne sont jamais totalement exempts de vices et que le Logiciel de Polices de Caractères peut donc contenir des vices nuisant à son utilisation.
+
+3.2 Toute prétention dépassant les droits à la garantie ci-avant mentionnés, tels que des indemnités pour périodes d'inactivité, pertes de production, gaspillage de matériel et autres dommages indirects, sont formellement exclus dans la mesure où ces dommages n'auront pas été causés intentionnellement ou par une négligence grossière de Linotype Library.
+
+4. Généralités
+
+4.1 Le droit d'utilisation accordé à l'alinéa 1.2 prend fin avec effet immédiat en cas de non respect de cet accord.
+
+4.2 Au cas où ce contrat prendrait fin, vous vous engagez à rendre ou à détruire ce Logiciel de Polices de Caractères avec toutes les copies existantes, toutes les modifications et condensés de toutes sortes.
+
+4.3 Vous vous engagez à informer tout employé de votre entreprise ou autres personnes ayant accès au Logiciel de Polices de Caractères ou à des copies de la teneur de ce contrat d'utilisation du Logiciel de Polices de Caractères et à vous assurer qu'ils respecteront les dispositions de ce contrat.
+
+EULA 02/2002

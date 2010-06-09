@@ -1,0 +1,44 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>create_new</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">create_new</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/jobs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add New</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>job_title</td>
+	<td>Test Job Title</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>job_category_id</td>
+	<td>label=Administrative</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//img[@alt='Unordered list']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>commit</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,100 @@
+Deutsch siehe unten
+Français si-dessous
+--------------------------------------------------------------------------------
+
+English:
+If you save fonts on your hard disk, the following folders might be created:
+
+<Name> TT - containing TrueType fonts
+<Name> PS - containing PostScript fonts
+
+..\Single - containing non classified single fonts
+..\Family - containing classified fonts (see "About font styles" below)
+
+About font styles
+
+You have installed your fonts but only some of them appear in the Fonts menu. 
+Why is that?
+
+Unlike on the Macintosh, font styles are classified in "families" under Windows.
+
+A type family can contain a maximum of four members - e.g. "Regular", "Italic", "Bold" and "Bold Italic". One of these is specified as the default font. Only this default font appears in the Font menus of application programs. The three other variations are linked to the default font and are only activated by selecting the font styles "Italic", "Bold" and "Bold Italic".
+
+Example: You have installed the "Frutiger Light", "Frutiger LightItalic", "Frutiger Bold" and "Frutiger BoldItalic" fonts. However, only "Frutiger 45 Light" appears in the Font menu of the application program.
+
+Select the following settings in your application program in order to obtain the individual styles:
+
+Desired font style - Font to be selected - Font style to be selected
+Frutiger 45 Light - Frutiger 45 Light - Normal* or Regular* or nothing
+Frutiger 46 Light Italic - Frutiger 45 Light - Italic*
+Frutiger 65 Bold - Frutiger 45 Light - Bold*
+Frutiger 66 Bold Italic - Frutiger 45 Light - Bold Italic* or Bold* and Italic*
+
+* Designation depends on application program
+
+Version: 01/2002
+--------------------------------------------------------------------------------
+
+Deutsch:
+Wenn Sie Schriften auf Ihrer Festplatte sichern, werden ggf. folgende Ordner angelegt:
+
+<Name> TT - enthält TrueType Schriften 
+<Name> PS - enthält PostScript Schriften 
+
+..\Single - enthält nicht verknüpfte Einzelschriftschnitte
+..\Family - enthält verknüpfte Schriften (siehe "Über Schriftstile" weiter unten) 
+
+Über Schriftstile
+
+Sie haben Schriften installiert und können nur einen Teil dieser Schriften im Schriftmenü sehen.
+Woran liegt das?
+
+Anders als beim Macintosh werden Schriftgarnituren unter Windows zu einer "Familie" zusammengefasst.
+
+Eine Windows-Schriftfamilie kann aus maximal vier Mitgliedern bestehen, z. B. "Regular", "Italic", "Bold" und "Bold Italic". Eine davon wird als Grundschnitt festgelegt. Nur diese Grundschrift erscheint in den Schriftmenüs der Anwendungsprogramme. Die drei möglichen Varianten sind mit dem Grundschnitt verknüpft und nur über die Anwahl der Schriftstile "Kursiv", "Fett" und "Fett Kursiv" erreichbar.
+
+Beispiel: Sie haben die Schriften "Frutiger Light", "Frutiger LightItalic", "Frutiger Bold" und "Frutiger BoldItalic" installiert. Trotzdem sehen Sie im Schriftmenü Ihres Anwendungsprogramms nur den Schriftschnitt "Frutiger 45 Light".
+
+Nehmen Sie in Ihrem Anwendungsprogramm folgende Einstellungen vor, um die einzelnen Garnituren der Schrift zu erhalten:
+
+gewünschter Schriftschnitt - anzuwählende Schrift - anzuwählender Schriftstil
+Frutiger 45 Light - Frutiger 45 Light - Normal* oder Regular* oder nichts
+Frutiger 46 Light Italic - Frutiger 45 Light - Kursiv* oder Italic*
+Frutiger 65 Bold - Frutiger 45 Light - Fett* oder Bold*
+Frutiger 66 Bold Italic - Frutiger 45 Light - Fett Kursiv* oder Bold Italic* oder Fett* und Kursiv* oder Bold* und Italic*
+
+* Bezeichnung abhängig vom Anwendungsprogramm
+
+Stand: 01/2002
+--------------------------------------------------------------------------------
+
+Français:
+Si vous enregistrez des polices de caractères sur votre disque dur, vous pouvez trouver les dossiers suivants:
+
+<Nom> TT - contient des polices TrueType
+<Nom> PS - contient des polices PostScript
+
+..\Single - contient des polices non classés en "familles"
+..\Family - contient des polices classés en "familles" " (regardez "A propos des styles de police" plus bas)
+
+A propos des styles de police
+
+Vous avez installé vos polices de caractères, mais seulement quelques-unes d'entre elles apparaissent dans le menu Police. Pourquoi ?
+
+Contrairement à l'environnement Macintosh, les styles de polices sont classés en "familles" sous Windows.
+
+Une famille peut contenir au maximum quatre membres: ex. Normal, Italique, Gras et Gras italique. Une police est désignée comme étant la police par défaut. Seule cette police par défaut apparaît dans les menus Police des divers logiciels. Les trois autres variantes sont donc liées à la police par défaut et ne sont disponibles qu'en sélectionnant les styles Italique, Gras ou Gras italique.
+
+Par exemple, vous avez installé les polices Frutiger Light, Frutiger LightItalic, Frutiger Bold, et Frutiger BoldItalic. Remarquez, seule la police Frutiger 45 Light apparaît dans le menu Police de votre logiciel Windows.
+
+Dans votre logiciel, sélectionnez les paramètres suivants pour obtenir les styles désirés :
+
+Style de police désiré - Police devant être choisie - Style devant être sélectionné
+Frutiger 45 Light - Frutiger 45 Light - Normal (ou Régulier ou aucun) *
+Frutiger 46 Light Italic - Frutiger 45 Light - Italique
+Frutiger 65 Bold - Frutiger 45 Light - Gras
+Frutiger 66 Light Italic - Frutiger 45 Light - Gras et Italique ou Gras italique *
+
+* La dénomination du style, à savoir normal ou régulier, relève du logiciel.
+
+Version: 01/2002

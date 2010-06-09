@@ -1,0 +1,94 @@
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAA9eNvbWRKodJ4YRZP6yoJrBRxS5rBlYYd8ituGw_Vcjqty84t5hR-0chvydzu288bFR7UQ10rpwNkmQ"
+      type="text/javascript"></script>
+    <script type="text/javascript">
+
+    //<![CDATA[
+
+    function load() {
+      if (GBrowserIsCompatible()) {
+        var map = new GMap2(document.getElementById("map"));
+		map.addControl(new GSmallMapControl());
+		map.addControl(new GMapTypeControl());
+		
+		
+        map.setCenter(new GLatLng(40.334768,-75.95192), 15);
+		map.addOverlay(new GMarker(new GLatLng(40.334768,-75.95192)));
+		
+
+		 var location2 = new GMap2(document.getElementById("map2"));
+		 location2.addControl(new GSmallMapControl());
+		 location2.addControl(new GMapTypeControl());	 	 	
+	     location2.setCenter(new GLatLng(40.192551, -76.175268), 15);
+		 location2.addOverlay(new GMarker(new GLatLng(40.192551, -76.175268)));	
+      }
+    }
+
+
+function openWindow(location) {
+	window.open(location, 'directions', "height=600,width=800,status=yes,toolbar=no,menubar=no,location=no");
+}
+
+function drivingDirections(map) {
+	switch (map){
+	case 1:
+	openWindow("http://maps.google.com/maps?f=q&hl=en&geocode=&q=101+North+7th+Avenue,+west+reading,+pa&sll=40.334768,-75.95192&sspn=0.149434,0.285301&ie=UTF8&z=16&iwloc=addr");
+	break;
+	case 2:
+	openWindow("http://maps.google.com/maps?f=q&hl=en&q=348+North+Reading+Rd,+Ephrata,+Pa.+17522&ie=UTF8&om=1");
+	break;
+	default : statement;
+	}
+}
+
+    //]]>
+    </script>
+
+	<h1>Contact Us</h1>
+	<h4>&raquo; Locations &laquo;</h4>
+	You can contact us a number of ways.
+	<p>
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	  <tr>
+	    <td style="width: 50%;">
+		<h2>Corporate Office</h2>
+		<div class="contact_us">
+		101 N. 7th Avenue <br />
+		West Reading, PA 19611 <br />
+		Phone: 610-376-1771<br />
+		Fax: 610-376-1718	<br /><br />
+		
+		<span class="driving">West Reading Resumes</span> <br />
+		<a style="text-decoration: none;" href="mailto:resume@gagepersonnel.com">resume@gagepersonnel.com</a>
+		
+		<br /><br /><br />
+		<span onclick="drivingDirections(1);" class="driving">Driving Directions</span>
+		</div>	
+			
+				<div id="map" style="width: 450px; height: 300px"></div>
+				
+		</td>
+		<td style="width: 50%;">
+			<h2>Ephrata Office</h2>
+			<div class="contact_us">
+			Trout Run Business Center<br />
+			348 North Reading Rd<br />
+			Ephrata, Pa. 17522<br />
+			Phone: 717-336-5959<br />
+			Fax: 717-336-4008<br /><br />
+			
+			<span class="driving">Ephrata Resumes</span> <br />
+		    <a style="text-decoration: none;" href="mailto:t.mckim@gagepersonnel.com">t.mckim@gagepersonnel.com</a>
+		
+		    <br /><br />
+		
+			<span onclick="drivingDirections(2);" class="driving">Driving Directions</span>
+			</div>
+	    		<div id="map2" style="width: 450px; height: 300px"></div>
+			
+		</td>
+	  </tr>
+	</table>
+
+	<script defer="1">
+		load();
+	</script>

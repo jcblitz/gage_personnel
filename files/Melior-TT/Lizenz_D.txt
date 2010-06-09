@@ -1,0 +1,53 @@
+
+Nutzungsvertrag für Schriften-Software 
+
+1. Nutzungsrecht
+
+1.1 Die auf den Datenträgern gespeicherte Schriften-Software (die "Schriften-Software") ist geistiges Eigentum der Heidelberger Druckmaschinen AG und/oder deren Lizenzgeber. 
+Heidelberger Druckmaschinen AG hat die Linotype Library exklusiv zur gewerblichen Verwertung und Verteidigung dieser Rechte ermächtigt. Der Begriff Schriften-Software schließt jegliche Updates, Upgrades, Erweiterungen, veränderte Versionen, und Arbeitskopien der Schriften-Software, an denen Ihnen hiernach ein Nutzungsrecht eingeräumt wird, ein. Die Datenträger selbst sind und bleiben auch künftig Eigentum der Heidelberger Druckmaschinen AG.
+
+1.2 Mit vollständiger Bezahlung des vereinbarten Nutzungsentgelts gewährt Linotype Library GmbH Ihnen ein nicht ausschließliches, nicht übertragbares Recht, die Schriften-Software - soweit sie ab Auslieferung bzw. entsprechend der von Ihnen geleisteten Zahlung freigeschaltet ist - an einem einzelnen Ort auf einer Festplatte oder einem anderen Speichermedium von bis zu fünf Computern zu installieren. Sofern die Schriften-Software über ein Netzwerk genutzt werden soll, dürfen Sie sie auf einem einzelnen Fileserver zur Benutzung in einem "Local Area Network", zu jeweils nur einem der nachfolgend genannten Zwecke nutzen:
+-	Dauerhafte Installation auf eine Festplatte oder ein anderes Speichermedium von bis zu fünf Computern;
+-	Benutzung der Schriften-Software über dieses Netzwerk unter der Bedingung, dass die Anzahl der verschiedenen Geräte, auf denen die Schriften-Software genutzt wird, fünf Computer nicht überschreitet.
+Ebenso dürfen Sie die Schriften-Software auf einem Heim- oder tragbaren Computer installieren. Jedoch darf die Schriften-Software nicht gleichzeitig auf dem Erstcomputer und von einer anderen Person auf einem Zweitcomputer genutzt werden. Sie dürfen eine Sicherheitskopie der Schriften-Software anfertigen, die mit einer Kopie der Original-Kennzeichnung (inkl. des Copyright-Hinweises) kenntlich gemacht werden muss. Dieselben Kopierbeschränkungen gelten für Dateien, die Linotype Library GmbH Ihnen in Verbindung mit der Schriften-Software liefert, um Ihnen den Zugriff auf sie zu ermöglichen. Ein gleichzeitiger Einsatz der Schriften-Software auf mehr als fünf Computern ist nur zulässig, wenn Sie (gegen Aufpreis und nach Verfügbarkeit) eine "Multi-User-Lizenz" erworben haben.
+
+1.3 Sie sind nur bei Einhaltung aller nachfolgenden Bedingungen berechtigt, dieses Nutzungsrecht an einen Dritten zu übertragen:
+-	Dieser Dritte akzeptiert mit seiner Unterschrift auf diesem Vertrag den Inhalt dieses Nutzungsvertrages für Schriften-Software als eine auch für ihn verbindliche Regelung, und eine Ablichtung des vollständigen und von Ihnen und dem Dritten unterzeichneten Vertrages wird an Linotype Library GmbH bzw. den Vertragshändler gesandt, und
+-	Sie halten keine Kopie der Schriften-Software zurück und enthalten sich jeglicher weiteren Benutzung derselben oder von Kopien oder Teilen derselben.
+
+1.4 Ausschließlich zum Zwecke der Ausgabe bestimmter Dateien dürfen Sie eine Kopie derjenigen Schriften-Software, die Sie zur Erstellung der betreffenden Datei benutzt haben, zu einem kommerziellen Belichtungsstudio oder anderem Service-Unternehmen geben, sofern dieses Service-Unternehmen Ihnen glaubhaft versichert hat, dass es ein Recht zur Nutzung der fraglichen Schriften-Software ordnungsgemäß erworben hat.
+
+1.5 Die Einbettung der Schriften-Software in elektronische Dokumente oder Internet-Seiten ist nur gestattet, wenn zweifelsfrei sichergestellt ist, dass der Empfänger die Schriften-Software nicht zum Editieren oder zum Erstellen neuer Dokumente (Read-Only) verwenden kann. Ebenfalls muss es unmöglich sein, die Schriften-Software ganz oder teilweise aus solchen Dokumenten wieder zu extrahieren.
+
+2. Ausschluss anderweitiger Nutzung
+
+2.1 Es ist - vorbehaltlich der Regelungen in den Ziffern 1.3 und 1.4 - ausdrücklich untersagt, die Schriften-Software zu verkaufen, zu verleihen, sie in sonstiger Weise an Dritte weiterzugeben oder Sublizenzen an ihr zu vergeben.
+
+2.2 Es ist - vorbehaltlich der Regelungen in den Ziffern 2.3 und 2.4 - nicht gestattet, 
+-	die Schriften-Software zu verändern, sie mit anderen Softwareprogrammen zu vermischen, sie zu dekompilieren,
+-	Module daraus zu eigenen Entwicklungen oder
+-	die in der Schriften-Software enthaltenen technischen Lösungen zu anderen Zwecken als dem Betrieb an Ihrem eigenen Computer zu benutzen.
+
+2.3 Eingriffe nach Ziffer 2.2 sind nur zulässig, soweit sie unerlässlich sind, um die erforderlichen Informationen zur Herstellung der Interoperabilität der Software mit anderen Programmen zu erhalten, und diese Informationen weder veröffentlicht noch sonst ohne weiteres zugänglich sind und Sie sie auf entsprechende Anfrage bei 
+Linotype Library GmbH oder ihrem Vertragshändler nicht erhalten haben. In diesem Fall werden Sie Linotype Library GmbH schriftlich mitteilen, welche Teile der Schriften-Software Sie dekompilieren.
+2.4 Modifikationen der Schriften-Software sind Ihnen nur gestattet, soweit sie notwendig sind, um Ihre persönlichen Design-Anforderungen zu erfüllen. Die zu diesem Zwecke angefertigten Modifikationen unterliegen in jeder Hinsicht den Regelungen dieses Schriften-Software-Nutzungsvertrages.
+
+3. Gewährleistung und Haftung
+
+3.1 Linotype Library GmbH gewährleistet, dass die Schriften-Software die Funktions- und Leistungsmerkmale erfüllt, die in der bei Vertragsschluss gültigen Produktbeschreibung enthalten sind. Die Gewährleistungsansprüche enden sechs Monate nach dem Tag der Übergabe der Schriften-Software an Sie. Treten während dieser Frist Fehler an der Schriften-Software auf, die den Wert und die Tauglichkeit nicht nur unerheblich beeinträchtigen, wird Linotype Library GmbH diese Fehler nach Eingang der Fehlermeldung unverzüglich beseitigen. Voraussetzung für die Fehlerbeseitigung ist, dass die Fehlerauswirkungen reproduzierbar sind, von Ihnen ausreichend 
+beschrieben wurden und der Fehler Linotype Library GmbH unverzüglich gemeldet wurde. 
+Die Gewährleistung erfolgt durch Nachbesserung, die nach Wahl von 
+Linotype Library GmbH auch in Form der unentgeltlichen Lieferung einer neuen Programmfassung oder bis zur Übergabe einer solchen in Form einer temporären Fehlerkorrektur erfolgen kann. 
+Werden Ihnen zum Zwecke der Gewährleistung neue Versionen der Schriften-Software (mit erweitertem Funktions- und Leistungsumfang, auf den Sie keinen Anspruch haben) zur Verfügung gestellt, so erstreckt sich die Gewährleistung nicht auf diese neuen Funktions- und Leistungsmerkmale. Sofern eine solche neue Version zu ihrer Lauffähigkeit eine neue oder geänderte Hardware beim Kunden erfordert, haben Sie nur das Recht, die Schriften-Software gegen Rückvergütung des dafür gezahlten Entgelts an Linotype Library GmbH bzw. den Vertragshändler zurückzugeben. Ihnen ist jedoch bekannt, dass Software nie völlig fehlerfrei ist und die Schriften-Software daher Fehler enthalten kann, die die Gebrauchsfähigkeit beeinträchtigen können.
+
+3.2 Über die vorstehenden Gewährleistungsansprüche hinausgehende Ansprüche, z. B. auf Ersatz für Stillstandszeiten, Produktionsausfall, nutzlos verbrauchtes Material und andere indirekte Schäden, sind ausdrücklich ausgeschlossen, sofern solche Schäden von Linotype Library GmbH nicht vorsätzlich oder grob fahrlässig herbeigeführt wurden.
+
+4. Allgemeines
+
+4.1 Das unter Ziffer 1.2 gewährte Nutzungsrecht erlischt bei einer Verletzung dieser Vereinbarung mit sofortiger Wirkung.
+
+4.2 Bei Beendigung dieses Vertrages verpflichten Sie sich, die Schriften-Software mit allen vorhandenen Kopien, Veränderungen und Zusammenfassungen jeglicher Art und Weise zurückzugeben oder zu vernichten.
+
+4.3 Sie verpflichten sich, jedem Angestellten Ihres Unternehmens oder sonstigen Personen, die durch Sie Zugriff zu der Schriften-Software oder zu Kopien davon erhalten, den Inhalt dieses Nutzungsvertrages für Schriften-Software zur Kenntnis zu geben und sicherzustellen, dass sich diese vertragsgemäß verhalten.
+
+EULA 02/2002
