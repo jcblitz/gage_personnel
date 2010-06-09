@@ -70,3 +70,74 @@ ActiveRecord::RecordNotFound (Couldn't find Category with ID=1):
 Rendered rescues/_trace (59.6ms)
 Rendered rescues/_request_and_response (1.4ms)
 Rendering rescues/layout (not_found)
+
+
+Processing ShowController#index (for 127.0.0.1 at 2010-06-08 23:42:50) [GET]
+Rendering template within layouts/homepage
+Rendering show/index
+Rendered show/_solutions (2.6ms)
+Rendered show/_quotes (2.3ms)
+Rendered show/_sub_nav (1.5ms)
+Rendered show/_main_links (3.9ms)
+Completed in 110ms (View: 109, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ShowController#jobs (for 127.0.0.1 at 2010-06-08 23:42:52) [GET]
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+Found Category Administrative
+  [4;35;1mJob Load (0.3ms)[0m   [0mSELECT * FROM "jobs" WHERE (category_id = 1 and is_active = 1 and ((start_date <= current_date and end_date >= current_date) or (start_date is null and end_date >= current_date) or (start_date <= current_date and end_date = null) or (start_date is null and end_date is null))) ORDER BY position[0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 2) [0m
+Found Category Industrial
+  [4;35;1mJob Load (0.2ms)[0m   [0mSELECT * FROM "jobs" WHERE (category_id = 2 and is_active = 1 and ((start_date <= current_date and end_date >= current_date) or (start_date is null and end_date >= current_date) or (start_date <= current_date and end_date = null) or (start_date is null and end_date is null))) ORDER BY position[0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 3) [0m
+Found Category Professional
+  [4;35;1mJob Load (0.2ms)[0m   [0mSELECT * FROM "jobs" WHERE (category_id = 3 and is_active = 1 and ((start_date <= current_date and end_date >= current_date) or (start_date is null and end_date >= current_date) or (start_date <= current_date and end_date = null) or (start_date is null and end_date is null))) ORDER BY position[0m
+Rendering template within layouts/internal
+Rendering show/jobs
+Rendered show/_sub_nav (0.3ms)
+Rendered show/_main_links (1.9ms)
+Completed in 97ms (View: 28, DB: 1) | 200 OK [http://localhost/jobs]
+
+
+Processing ShowController#index (for 127.0.0.1 at 2010-06-08 23:54:54) [GET]
+Rendering template within layouts/homepage
+Rendering show/index
+Rendered show/_solutions (2.7ms)
+Rendered show/_quotes (2.3ms)
+Rendered show/_sub_nav (1.6ms)
+Rendered show/_main_links (3.6ms)
+Completed in 285ms (View: 283, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ShowController#jobs (for 127.0.0.1 at 2010-06-08 23:54:57) [GET]
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+Found Category Administrative
+  [4;35;1mJob Load (0.0ms)[0m   [0mSQLite3::SQLException: no such column: true: SELECT * FROM "jobs" WHERE (category_id = 1 and is_active = true and ((start_date <= current_date and end_date >= current_date) or (start_date is null and end_date >= current_date) or (start_date <= current_date and end_date = null) or (start_date is null and end_date is null))) ORDER BY position[0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: true: SELECT * FROM "jobs" WHERE (category_id = 1 and is_active = true and ((start_date <= current_date and end_date >= current_date) or (start_date is null and end_date >= current_date) or (start_date <= current_date and end_date = null) or (start_date is null and end_date is null)))  ORDER BY position):
+  app/controllers/show_controller.rb:12:in `jobs'
+  <internal:prelude>:8:in `synchronize'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (86.3ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ShowController#jobs (for 127.0.0.1 at 2010-06-08 23:56:24) [GET]
+  [4;36;1mCategory Load (0.4ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+Found Category Administrative
+  [4;35;1mJob Load (0.4ms)[0m   [0mSELECT * FROM "jobs" WHERE (category_id = 1 and ((start_date <= current_date and end_date >= current_date) or (start_date is null and end_date >= current_date) or (start_date <= current_date and end_date = null) or (start_date is null and end_date is null))) ORDER BY position[0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 2) [0m
+Found Category Industrial
+  [4;35;1mJob Load (0.2ms)[0m   [0mSELECT * FROM "jobs" WHERE (category_id = 2 and ((start_date <= current_date and end_date >= current_date) or (start_date is null and end_date >= current_date) or (start_date <= current_date and end_date = null) or (start_date is null and end_date is null))) ORDER BY position[0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 3) [0m
+Found Category Professional
+  [4;35;1mJob Load (0.2ms)[0m   [0mSELECT * FROM "jobs" WHERE (category_id = 3 and ((start_date <= current_date and end_date >= current_date) or (start_date is null and end_date >= current_date) or (start_date <= current_date and end_date = null) or (start_date is null and end_date is null))) ORDER BY position[0m
+Rendering template within layouts/internal
+Rendering show/jobs
+Rendered show/_sub_nav (4.0ms)
+Rendered show/_main_links (4.7ms)
+Completed in 189ms (View: 64, DB: 2) | 200 OK [http://localhost/jobs]
