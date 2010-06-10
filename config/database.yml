@@ -27,8 +27,3 @@ test:
   host: localhost
 
 production:
-  adapter: mysql
-  database: db29110_gage_production
-  username: db29110_website
-  password: 6jNLRGzi
-  host: internal-db.s29110.gridserver.com
